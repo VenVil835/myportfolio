@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>VenVil</title>
+        <link rel="stylesheet" href="style.css"></link>
+        <link rel="icon" href="images/VenVil Font.png"></link>
+        <script defer src="js/scroll.js"></script>
+        <script defer src="js/nav.js"></script>
+        <style>
+            @keyframes words {
+            0%, 20%{
+                content: "UI / UX Designer";
+            }
+            21%, 40%{
+                content: "Web Developer";
+            }
+            41%, 60%{
+                content: "Web Designer";
+            }
+            61%, 80%{
+                content: "Digital Artist";
+            }
+            81%, 100%{
+                content: "Video and Photo Editor";
+            }
+        }
+        </style>
+    </head>
+<body>
+        <div id="root">
+            <div id="header">
+                <div id="logo">
+                        <img src="images/VenVil Font.png">
+                        <div id="venvil">
+                            <span>Ven</span><p>Vil</p>
+                        </div>
+                    </div>
+                    <div id="nav1">
+                        <input type="checkbox" id="toggle-menu">
+                        <div id="hamburger"></div>
+                        <ul id="nav">
+                            <li><a href="#home" class="active">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#blog">Portfolios</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div> <!-- end of nav1 -->
+            </div><!-- end of header -->
+
+        <section class="home" id="home" style="background: url('images/patterngif.gif') no-repeat;  background-size: cover;
+        background-attachment: fixed;">
+            <div id="homeimg"><img src="images/ventux.png"></img></div>
+            <div class="home-content">
+                <h1>Hi, Im Ven</h1>
+                <h3 class="text-animation">A <span></span></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ipsum quas vero perspiciatis tempore. Eius, dignissimos ducimus eligendi magnam iure explicabo officia, voluptatibus vero expedita tenetur, cupiditate reprehenderit. Quam, quasi.
+                </p>
+                    <div class="social-icons">
+                        
+                        <a href="#"><img src="images/instagram.png"></img></a>
+                        <a href="#"><img src="images/facebook.png"></img></a>
+                        <a href="#"><img src="images/youtube.png"></img></a>
+                        
+                       
+                    </div>
+                    <div id="contact-btn"><a href="#contact" class="btn">Contact</a></div>           
+            </div><!-- end of home content-->
+                    
+        </section> <!-- end of home -->
+        <section class="about" id="about">
+            <h2 class="heading">About</h3>
+            <div class="about-box">
+                <div id="about_img"><img src="images/ventux.png"></img></div>
+                    <div class="about-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ipsam libero fugit deleniti ipsa ullam distinctio quis accusantium provident ab? Inventore quod ducimus tempora quo iusto rem sequi tenetur illo?
+                        </p>
+                    </div><!-- end of about content -->
+            </div>
+        </section><!-- end of about -->
+        <section class="services" id="services"> <!-- Services -->
+            <h2 class="heading">Services</h2> <!-- Title -->
+            <h5>These are my services that I can offer</h5> <!-- Subtitle -->
+            <div class="services-container"> <!-- Container -->
+                        <div class="service-box" id="service-box">
+                                
+                                    <div class="service-content">
+                                        <img src="images/445981256_365650953169927_3841039356691359315_n.png">
+                                            <div class="service-info">
+                                                <h4>UI / UX Design</h4>
+                                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil blanditiis facilis, amet ut veniam dignissimos consequuntur pariatur ipsa iusto eligendi perferendis odit, nisi quibusdam repudiandae at, est atque? Illum, incidunt.</p>
+                                            </div> <!-- end of Service info -->
+                                        </img>
+                                    </div> <!-- end of Service content -->
+                                    <div class="service-content">
+                                        <img src="images/SpiderVerseFanArt_VenVil2.png">
+                                            <div class="service-info">
+                                                <h4>Digital Arts</h4>
+                                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil blanditiis facilis, amet ut veniam dignissimos consequuntur pariatur ipsa iusto eligendi perferendis odit, nisi quibusdam repudiandae at, est atque? Illum, incidunt.</p>
+                                            </div> <!-- end of Service info -->
+                                        </img>
+                                    </div> <!-- end of Service content -->
+                                    <div class="service-content">
+                                        <img src="images/GALAN_BSIT-IS2A_Sucesos.png">
+                                            <div class="service-info">
+                                                <h4>Photo Editing</h4>
+                                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil blanditiis facilis, amet ut veniam dignissimos consequuntur pariatur ipsa iusto eligendi perferendis odit, nisi quibusdam repudiandae at, est atque? Illum, incidunt.</p>
+                                            </div> <!-- end of Service info -->
+                                        </img>
+                                    </div> <!-- end of Service content -->
+                                    <div class="service-content">
+                                        <img src="images/GALAN_BSIT-IS2A_FilmTrailer-ezgif.com-video-to-gif-converter.gif">
+                                            <div class="service-info">
+                                                <h4>Video Editing</h4>
+                                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil blanditiis facilis, amet ut veniam dignissimos consequuntur pariatur ipsa iusto eligendi perferendis odit, nisi quibusdam repudiandae at, est atque? Illum, incidunt.</p>
+                                            </div> <!-- end of Service info -->
+                                        </img>
+                                    </div> <!-- end of Service content -->
+                             
+                        </div>
+            </div> <!-- end of Container -->
+        </section> <!-- end of Services -->
+        <section class="portfolio" id="portfolio" style="background: url('images/gray-bg2.jpg') no-repeat; background-size: cover; 
+        background-attachment: fixed;"> <!-- Portfolio -->
+            <h2 class="heading">Portfolio</h2> <!-- Title -->
+            <h5>Here are my works</h5> <!-- Subtitle -->
+               
+                <div class="portfolio-box"> <!-- portfolio box-->
+
+                    <div class="portfolio-wrapper" id="portfolio-wrapper"> <!-- Portfolio Wrapper-->
+                       
+                            <div class="portfolio-item"><!-- Card -->
+                                <div class="portfolio-img">
+                                    <div class="portfolio-overlay">
+                                        <img src="images/Girl with balloon.png" class="card-img"></img>
+                                    </div>
+                                </div>
+                                <div class="portfolio-content">
+                                    <h2>Girl with balloon</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, labore? Ab sit est, accusamus commodi fuga harum dolores repellat ipsam ut nisi necessitatibus dolorem ipsa dolor. Sint repellendus culpa hic.</p>
+                                    <button class="view-more">View More</button>
+                                </div>
+                            </div>
+                            <div class="portfolio-item"><!-- Card -->
+                                <div class="portfolio-img">
+                                    <div class="portfolio-overlay">
+                                        <img src="images/FellieWaving.gif" class="card-img"></img>
+                                    </div>
+                                </div>
+                                <div class="portfolio-content">
+                                    <h2>Felie</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, labore? Ab sit est, accusamus commodi fuga harum dolores repellat ipsam ut nisi necessitatibus dolorem ipsa dolor. Sint repellendus culpa hic.</p>
+                                    <button class="view-more">View More</button>
+                                </div>
+                            </div>
+                            <div class="portfolio-item"><!-- Card -->
+                                <div class="portfolio-img">
+                                    <div class="portfolio-overlay">
+                                        <img src="images/GwenNMiles_G.png" class="card-img"></img>
+                                    </div>
+                                </div>
+                                <div class="portfolio-content">
+                                    <h2>Fall for you</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, labore? Ab sit est, accusamus commodi fuga harum dolores repellat ipsam ut nisi necessitatibus dolorem ipsa dolor. Sint repellendus culpa hic.</p>
+                                    <button class="view-more">View More</button>
+                                </div>
+                            </div>
+                            <div class="portfolio-item"><!-- Card -->
+                                <div class="portfolio-img">
+                                    <div class="portfolio-overlay">
+                                        <img src="images/USEP_URT_SLEEVE.png" class="card-img"></img>
+                                    </div>
+                                </div>
+                                <div class="portfolio-content">
+                                    <h2>URT shirt design</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, labore? Ab sit est, accusamus commodi fuga harum dolores repellat ipsam ut nisi necessitatibus dolorem ipsa dolor. Sint repellendus culpa hic.</p>
+                                    <button class="view-more">View More</button>
+                                </div>
+                            </div>
+                            <div class="portfolio-item"><!-- Card -->
+                                <div class="portfolio-img">
+                                    <div class="portfolio-overlay">
+                                        <img src="images/PlantPlayLogo2.png" class="card-img"></img>
+                                    </div>
+                                </div>
+                                <div class="portfolio-content">
+                                    <h2>Plant Play</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, labore? Ab sit est, accusamus commodi fuga harum dolores repellat ipsam ut nisi necessitatibus dolorem ipsa dolor. Sint repellendus culpa hic.</p>
+                                    <button class="view-more">View More</button>
+                                </div>
+                            </div>
+                            <div class="portfolio-item"><!-- Card -->
+                                <div class="portfolio-img">
+                                    <div class="portfolio-overlay">
+                                        <img src="images/Weeping Soldier.png" class="card-img"></img>
+                                    </div>
+                                </div>
+                                <div class="portfolio-content">
+                                    <h2>Weeping Soldier</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, labore? Ab sit est, accusamus commodi fuga harum dolores repellat ipsam ut nisi necessitatibus dolorem ipsa dolor. Sint repellendus culpa hic.</p>
+                                    <button class="view-more">View More</button>
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
+        </section><!-- end of portfolio -->
+        <section class="contact" id="contact">
+        <h2 class="heading">Contact<span>Me</span></h2> <!-- Title -->
+        <h5>feel free to contact me</h5> <!-- Subtitle -->
+
+            <form id="contactForm" action=""" method="POST">
+            
+                <div class="input-group1">
+                    <div class="input-box">
+                        <input id="fullNameInput" type="text" placeholder="Full Name" name="full_name" required>
+                        <span id="fullNameTimer"></span>
+                        <input id="emailInput" type="email" placeholder="Email" name="email" required>
+                        
+                    </div>
+                    <div class="input-box">
+                        <input id="phoneNumberInput" type="number" placeholder="Phone Number" name="phone_number" required>
+                        <span id="phoneNumberTimer"></span>
+                        <input id="subjectInput" type="text" placeholder="Subject" name="subject" required>
+                    
+                    </div>
+                </div>
+                <!-- Honeypot field -->
+                <div style="display:none;">
+                    <input type="text" name="website" value="">
+                </div>
+                <div class="input-group2">
+                    <textarea id="feedbackTextarea" cols="30" rows="10" 
+                    placeholder="Your Feedback (max 500 characters)" name="feedback" required></textarea>
+                    <span id="feedbackCounter"></span>
+                    <br>
+                    <input id="submitButton" type="submit" value="Send Feedback" class="btn">
+                </div>
+            </form>
+        </section><!-- End of Contacts -->
+    </div>
+</body>
+    <footer>
+        <div class="social">
+            <a href="#"><img src="images/instagram.png"></img></a>
+            <a href="#"><img src="images/facebook.png"></img></a>
+            <a href="#"><img src="images/youtube.png"></img></a>
+        </div>
+        <ul class="list">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#about">About Me</a>
+            </li>
+            <li>
+                <a href="#services">Services</a>
+            </li>
+            <li>
+                <a href="#blog">Blog</a>
+            </li>
+            <li>
+                <a href="#contact">Contact Me</a>
+            </li>
+        </ul>
+        <p class="copyright"> © Ven Villotes | All Rights Reserved 2024</p>
+    </footer>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/sort.js"></script>
+</html>
